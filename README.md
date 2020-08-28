@@ -1,2 +1,3 @@
-# youtube-comment-blacklist
+# Youtube Comment Blacklist
+
 Removes unoriginal YouTube comments.
