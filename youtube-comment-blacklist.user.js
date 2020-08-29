@@ -4,6 +4,7 @@
 // @version      0.0.0
 // @description  Removes unoriginal YouTube comments.
 // @author       NatoBoram
+// @supportURL   https://github.com/NatoBoram/youtube-comment-blacklist/issues
 // @match        https://www.youtube.com/watch*
 // @grant        none
 // ==/UserScript==

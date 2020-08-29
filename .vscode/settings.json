@@ -1,5 +1,12 @@
 {
-	"jshint.options": {
-		"esversion": 9
-	}
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true
+	},
+	"editor.formatOnSave": true,
+	"editor.insertSpaces": false,
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"jshint.packageManager": "npm",
+	"npm.packageManager": "npm"
 }
