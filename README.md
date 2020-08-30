@@ -4,4 +4,5 @@ Removes unoriginal YouTube comments.
 
 ## Installation
 
-Click [here](https://github.com/NatoBoram/youtube-comment-blacklist/raw/master/youtube-comment-blacklist.user.js).
+1. Install [one of these](https://github.com/OpenUserJS/OpenUserJS.org/wiki/Userscript-Beginners-HOWTO#how-do-i-get-going)
+2. Click [here](https://github.com/NatoBoram/youtube-comment-blacklist/raw/master/youtube-comment-blacklist.user.js)
