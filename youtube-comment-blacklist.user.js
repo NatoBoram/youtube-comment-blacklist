@@ -27,13 +27,15 @@
 		"nobody's going to mention",
 		"of likes",
 		"require modern solutions",
+		"simp",
 		"speaking the language of gods",
+		"tiktok",
 		"underrated comment",
 	];
 
 	const bannedRegexes = [
 		/\d+ likes/i,
-		/^(\w ?)+:/im,
+		/^(\w ?)+:(\n| )/im,
 		/^\d+% (\w ?)+\n/im
 	];
 
