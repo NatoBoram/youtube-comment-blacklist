@@ -22,8 +22,10 @@
 		"he turned himself into a",
 		"i felt that",
 		"let's be honest",
+		"modern problems",
 		"nobody's going to mention",
 		"of likes",
+		"require modern solutions",
 		"speaking the language of gods",
 		"underrated comment",
 	];
