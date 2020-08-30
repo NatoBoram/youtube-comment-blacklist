@@ -2,6 +2,7 @@
 // @name         YouTube Comment Blacklist
 // @namespace    https://github.com/NatoBoram/youtube-comment-blacklist
 // @version      0.0.0
+// @license      GPL-3.0-or-later
 // @description  Removes unoriginal YouTube comments.
 // @author       NatoBoram
 // @supportURL   https://github.com/NatoBoram/youtube-comment-blacklist/issues
