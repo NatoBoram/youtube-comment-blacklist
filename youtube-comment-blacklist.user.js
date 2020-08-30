@@ -35,8 +35,9 @@
 
 	const bannedRegexes = [
 		/\d+ likes/i,
+		/\n\n\n/,
 		/^(\w ?)+:(\n| )/im,
-		/^\d+% (\w ?)+\n/im
+		/^\d+% (\w ?)+\n/im,
 	];
 
 	// Wait for the comment section to load.
@@ -49,8 +50,9 @@
 			comments.querySelectorAll("ytd-comment-thread-renderer").forEach(thread => {
 				thread.querySelectorAll("ytd-comment-renderer").forEach(comment => {
 					const textContent = comment.querySelector("ytd-expander yt-formatted-string#content-text").textContent.toLowerCase();
-					if (bannedWords.some(word => textContent.includes(word)) || bannedRegexes.some(regex => textContent.match(regex))) {
-						console.log("Removed comment :", textContent);
+					const found = bannedWords.find(word => textContent.includes(word)) || bannedRegexes.find(regex => textContent.match(regex));
+					if (found) {
+						console.log(`Removing "${found}" : ${textContent}`);
 						return comment.remove();
 					}
 				});
