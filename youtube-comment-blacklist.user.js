@@ -29,6 +29,7 @@
 		"require modern solutions",
 		"simp",
 		"speaking the language of gods",
+		"thanks for the likes",
 		"this blew up",
 		"this comment blew up",
 		"tiktok",
