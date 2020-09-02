@@ -29,6 +29,8 @@
 		"require modern solutions",
 		"simp",
 		"speaking the language of gods",
+		"this blew up",
+		"this comment blew up",
 		"tiktok",
 		"underrated comment",
 	];
