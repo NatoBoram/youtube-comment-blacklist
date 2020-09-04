@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Comment Blacklist
 // @namespace    https://github.com/NatoBoram/youtube-comment-blacklist
-// @version      0.0.0
+// @version      0.0.1
 // @license      GPL-3.0-or-later
 // @description  Removes unoriginal YouTube comments.
 // @author       NatoBoram
@@ -32,15 +32,16 @@
 		"thanks for the likes",
 		"this blew up",
 		"this comment blew up",
+		"tik tok",
 		"tiktok",
 		"underrated comment",
 	];
 
 	const bannedRegexes = [
-		/\d+ likes/i,
-		/\n\n\n/,
-		/^(\w ?)+:(\n| )/im,
-		/^\d+% (\w ?)+\n/im,
+		/\d.? likes/i, // 3k likes
+		/\n\n\n/, // More than 2 newlines
+		/^(\w ?)+:(\n| )/im, // someone:
+		/^\d+% (\w ?)+\n/im, // 3% useful
 	];
 
 	// Wait for the comment section to load.
