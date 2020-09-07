@@ -1,5 +1,7 @@
 # Youtube Comment Blacklist
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/02e428a18d320e626bce/maintainability)](https://codeclimate.com/github/NatoBoram/youtube-comment-blacklist/maintainability)
+
 Removes unoriginal YouTube comments.
 
 ## Installation
