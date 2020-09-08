@@ -7,7 +7,13 @@
 
 Removes unoriginal YouTube comments.
 
+![Example](images/example.png)
+
 ## Installation
 
 1. Install [one of these](https://github.com/OpenUserJS/OpenUserJS.org/wiki/Userscript-Beginners-HOWTO#how-do-i-get-going)
 2. Click [here](https://github.com/NatoBoram/youtube-comment-blacklist/raw/master/youtube-comment-blacklist.user.js)
+
+## Usage
+
+This script runs automatically. If you encounter an issue, refresh the page. If it still doesn't work, please [raise an issue](https://github.com/NatoBoram/youtube-comment-blacklist/issues).
