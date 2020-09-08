@@ -1,5 +1,6 @@
 {
 	"name": "youtube-comment-blacklist",
+	"version": "0.0.1",
 	"description": "Removes unoriginal YouTube comments.",
 	"homepage": "https://github.com/NatoBoram/youtube-comment-blacklist",
 	"bugs": {
