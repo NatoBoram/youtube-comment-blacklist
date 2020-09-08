@@ -5,6 +5,8 @@
 // @license      GPL-3.0-or-later
 // @description  Removes unoriginal YouTube comments.
 // @author       NatoBoram
+// @updateURL    https://github.com/NatoBoram/youtube-comment-blacklist/raw/master/youtube-comment-blacklist.user.js
+// @downloadURL  https://github.com/NatoBoram/youtube-comment-blacklist/raw/master/youtube-comment-blacklist.user.js
 // @supportURL   https://github.com/NatoBoram/youtube-comment-blacklist/issues
 // @include      https://www.youtube.com/watch*
 // @grant        none
