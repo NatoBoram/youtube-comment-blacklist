@@ -41,7 +41,7 @@
 	];
 
 	const bannedRegexes = [
-		/\d.? likes/i, // 3k likes
+		/\d.? (likes|views)/i, // 3k likes / views
 		/\n\n\n/, // More than 2 newlines
 		/^(\w ?)+:(\n| )/im, // someone:
 		/^\d+% (\w ?)+\n/im, // 3% useful
