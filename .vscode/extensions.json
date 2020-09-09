@@ -7,8 +7,10 @@
 		"dbaeumer.vscode-eslint",
 		"editorconfig.editorconfig",
 		"github.vscode-pull-request-github",
-		"visualstudioexptteam.vscodeintellicode",
+		"visualstudioexptteam.vscodeintellicode"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
-	"unwantedRecommendations": []
+	"unwantedRecommendations": [
+		"dbaeumer.jshint"
+	]
 }
