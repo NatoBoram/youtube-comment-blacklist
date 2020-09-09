@@ -16,6 +16,6 @@
 		"lint": "jshint youtube-comment-blacklist.user.js"
 	},
 	"devDependencies": {
-		"jshint": "^2.12.0"
+		"eslint": "^7.8.1"
 	}
 }

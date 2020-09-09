@@ -4,7 +4,7 @@
 	// List of extensions which should be recommended for users of this workspace.
 	"recommendations": [
 		"davidanson.vscode-markdownlint",
-		"dbaeumer.jshint",
+		"dbaeumer.vscode-eslint",
 		"editorconfig.editorconfig",
 		"github.vscode-pull-request-github",
 		"visualstudioexptteam.vscodeintellicode",
