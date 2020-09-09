@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/NatoBoram/youtube-comment-blacklist)](https://github.com/NatoBoram/youtube-comment-blacklist/blob/master/LICENSE.md)
 [![GreasyFork](https://img.shields.io/badge/dynamic/json?color=%23990000&label=GreasyFork&query=total_installs&suffix=%20installs&url=https%3A%2F%2Fgreasyfork.org%2Fscripts%2F411035.json)](https://greasyfork.org/scripts/411035)
 [![Stars](https://img.shields.io/github/stars/NatoBoram/youtube-comment-blacklist?style=social)](https://github.com/NatoBoram/youtube-comment-blacklist/stargazers)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNatoBoram%2Fyoutube-comment-blacklist.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FNatoBoram%2Fyoutube-comment-blacklist?ref=badge_shield)
 
 Removes unoriginal YouTube comments.
 
@@ -18,3 +19,7 @@ Removes unoriginal YouTube comments.
 ## Usage
 
 This script runs automatically. If you encounter an issue, refresh the page. If it still doesn't work, please [raise an issue](https://github.com/NatoBoram/youtube-comment-blacklist/issues).
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNatoBoram%2Fyoutube-comment-blacklist.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FNatoBoram%2Fyoutube-comment-blacklist?ref=badge_large)
