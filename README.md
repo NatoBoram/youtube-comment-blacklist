@@ -8,7 +8,7 @@
 
 Removes unoriginal YouTube comments.
 
-![Example](images/example.png)
+![Example](https://raw.githubusercontent.com/NatoBoram/youtube-comment-blacklist/master/images/example.png)
 
 ## Installation
 
