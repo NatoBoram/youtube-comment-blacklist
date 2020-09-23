@@ -18,7 +18,3 @@ Removes unoriginal YouTube comments.
 ## Usage
 
 This script runs automatically. If you encounter an issue, refresh the page. If it still doesn't work, please [raise an issue](https://github.com/NatoBoram/youtube-comment-blacklist/issues).
-
-## License
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNatoBoram%2Fyoutube-comment-blacklist.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FNatoBoram%2Fyoutube-comment-blacklist?ref=badge_large)
