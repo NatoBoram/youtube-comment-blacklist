@@ -1,9 +1,21 @@
 {
+	"[javascript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[json]": {
+		"editor.rulers": []
+	},
+	"[markdown]": {
+		"editor.rulers": []
+	},
 	"editor.codeActionsOnSave": {
 		"source.fixAll": true
 	},
 	"editor.formatOnSave": true,
 	"editor.insertSpaces": false,
+	"editor.rulers": [
+		140
+	],
 	"eslint.packageManager": "npm",
 	"files.insertFinalNewline": true,
 	"files.trimFinalNewlines": true,
