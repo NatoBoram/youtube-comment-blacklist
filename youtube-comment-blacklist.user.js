@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            YouTube Comment Blacklist
 // @namespace       https://github.com/NatoBoram/youtube-comment-blacklist
-// @version         0.0.1
+// @version         0.0.2
 // @license         GPL-3.0-or-later
 // @description     Removes unoriginal YouTube comments.
 // @author          NatoBoram
@@ -38,6 +38,7 @@
 		"tik tok",
 		"tiktok",
 		"underrated comment",
+		"who's watching this in",
 	];
 
 	const bannedRegexes = [
@@ -56,8 +57,14 @@
 		new MutationObserver(() => {
 			comments.querySelectorAll("ytd-comment-thread-renderer").forEach(thread => {
 				thread.querySelectorAll("ytd-comment-renderer").forEach(comment => {
-					const textContent = comment.querySelector("ytd-expander yt-formatted-string#content-text").textContent.toLowerCase();
-					const found = bannedWords.find(word => textContent.includes(word)) || bannedRegexes.find(regex => textContent.match(regex));
+					const textContent = comment.querySelector("ytd-expander yt-formatted-string#content-text").textContent
+						.toLowerCase()
+						.replace("’", "'");
+
+					const found = bannedWords.find(word =>
+						textContent.includes(word)) || bannedRegexes.find(regex => textContent.match(regex)
+					);
+
 					if (found) {
 						console.log(`Removing "${found}" : ${textContent}`);
 						return comment.remove();
