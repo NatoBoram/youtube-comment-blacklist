@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            YouTube Comment Blacklist
 // @namespace       https://github.com/NatoBoram/youtube-comment-blacklist
-// @version         0.0.2
+// @version         0.0.3
 // @license         GPL-3.0-or-later
 // @description     Removes unoriginal YouTube comments.
 // @author          NatoBoram
@@ -38,7 +38,7 @@
 		"tik tok",
 		"tiktok",
 		"underrated comment",
-		"who's watching this in",
+		"watching this in",
 	];
 
 	const bannedRegexes = [
