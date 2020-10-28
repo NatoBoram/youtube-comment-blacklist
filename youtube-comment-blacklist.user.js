@@ -15,7 +15,9 @@
 
 (() => {
 	"use strict";
-
+	
+ 	const removeThread = false; //if true, remove the whole thread, including replies
+	
 	const bannedWords = [
 		"always has been",
 		"anyone ?",
@@ -30,7 +32,6 @@
 		"nobody's going to mention",
 		"of likes",
 		"require modern solutions",
-		"simp",
 		"speaking the language of gods",
 		"thanks for the likes",
 		"this blew up",
@@ -46,6 +47,7 @@
 		/\n\n\n/, // More than 2 newlines
 		/^(\w ?)+:(\n| )/im, // someone:
 		/^\d+% (\w ?)+\n/im, // 3% useful
+		/simp[^l][^e]/im, //simp, unless simple
 	];
 
 	// Wait for the comment section to load.
@@ -67,7 +69,8 @@
 
 					if (found) {
 						console.log(`Removing "${found}" : ${textContent}`);
-						return comment.remove();
+						if (removeThread && comment.parentNode==thread) { return thread.remove(); }
+           				else { return comment.remove(); }
 					}
 				});
 			});
