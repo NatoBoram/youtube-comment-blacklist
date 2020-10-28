@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            YouTube Comment Blacklist
 // @namespace       https://github.com/NatoBoram/youtube-comment-blacklist
-// @version         0.0.3
+// @version         0.0.4
 // @license         GPL-3.0-or-later
 // @description     Removes unoriginal YouTube comments.
 // @author          NatoBoram
@@ -15,9 +15,11 @@
 
 (() => {
 	"use strict";
-	
- 	const removeThread = false; //if true, remove the whole thread, including replies
-	
+
+	/** Remove the whole thread, including replies. */
+	const removeThread = false;
+	const debug = true;
+
 	const bannedWords = [
 		"always has been",
 		"anyone ?",
@@ -47,7 +49,7 @@
 		/\n\n\n/, // More than 2 newlines
 		/^(\w ?)+:(\n| )/im, // someone:
 		/^\d+% (\w ?)+\n/im, // 3% useful
-		/simp[^l][^e]/im, //simp, unless simple
+		/simp\b/i, // Simp
 	];
 
 	// Wait for the comment section to load.
@@ -68,9 +70,10 @@
 					);
 
 					if (found) {
-						console.log(`Removing "${found}" : ${textContent}`);
-						if (removeThread && comment.parentNode==thread) { return thread.remove(); }
-           				else { return comment.remove(); }
+						if (debug) console.log(`Removing "${found}" : ${textContent}`);
+
+						if (removeThread && comment.parentNode == thread) return thread.remove();
+						else return comment.remove();
 					}
 				});
 			});

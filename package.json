@@ -1,6 +1,6 @@
 {
 	"name": "youtube-comment-blacklist",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "Removes unoriginal YouTube comments.",
 	"homepage": "https://github.com/NatoBoram/youtube-comment-blacklist",
 	"bugs": {
@@ -16,6 +16,6 @@
 		"lint": "jshint youtube-comment-blacklist.user.js"
 	},
 	"devDependencies": {
-		"eslint": "^7.11.0"
+		"eslint": "^7.12.1"
 	}
 }
