@@ -69,7 +69,7 @@
 
 					if (found) {
 						console.log(`Removing "${found}" : ${textContent}`);
-						if (removeThread) { return thread.remove(); }
+						if (removeThread && comment.parentNode==thread) { return thread.remove(); }
            				else { return comment.remove(); }
 					}
 				});
