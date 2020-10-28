@@ -15,7 +15,9 @@
 
 (() => {
 	"use strict";
-
+	
+ 	const removeThread = false; //if true, remove the whole thread, including replies
+	
 	const bannedWords = [
 		"always has been",
 		"anyone ?",
@@ -67,7 +69,8 @@
 
 					if (found) {
 						console.log(`Removing "${found}" : ${textContent}`);
-						return comment.remove();
+						if (removeThread) { return thread.remove(); }
+           				else { return comment.remove(); }
 					}
 				});
 			});
