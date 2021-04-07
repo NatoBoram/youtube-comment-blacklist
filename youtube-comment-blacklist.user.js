@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            YouTube Comment Blacklist
 // @namespace       https://github.com/NatoBoram/youtube-comment-blacklist
-// @version         0.0.4
+// @version         0.0.5
 // @license         GPL-3.0-or-later
 // @description     Removes unoriginal YouTube comments.
 // @author          NatoBoram
@@ -17,8 +17,10 @@
 	"use strict";
 
 	/** Remove the whole thread, including replies. */
-	const removeThread = false;
-	const debug = true;
+	const removeThread = true;
+
+	/** Turn this on if you want to see which comment has been removed in the console. */
+	const debug = false;
 
 	const bannedWords = [
 		"always has been",
