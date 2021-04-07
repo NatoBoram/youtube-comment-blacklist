@@ -6,11 +6,18 @@
 		"davidanson.vscode-markdownlint",
 		"dbaeumer.vscode-eslint",
 		"editorconfig.editorconfig",
+		"github.github-vscode-theme",
 		"github.vscode-pull-request-github",
+		"ms-vscode.github-issues-prs",
 		"visualstudioexptteam.vscodeintellicode"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [
-		"dbaeumer.jshint"
+		"dbaeumer.jshint",
+		"firefox-devtools.vscode-firefox-debug",
+		"ms-azuretools.vscode-docker",
+		"ms-edgedevtools.vscode-edge-devtools",
+		"ms-vscode-remote.remote-wsl",
+		"msjsdiag.debugger-for-chrome"
 	]
 }
