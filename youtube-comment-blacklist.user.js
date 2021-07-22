@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            YouTube Comment Blacklist
 // @namespace       https://github.com/NatoBoram/youtube-comment-blacklist
-// @version         0.0.5
+// @version         0.0.6
 // @license         GPL-3.0-or-later
 // @description     Removes unoriginal YouTube comments.
 // @author          NatoBoram
@@ -34,6 +34,7 @@
 		"let's be honest",
 		"liker",
 		"modern problems",
+		"no likes",
 		"nobody's going to mention",
 		"of likes",
 		"require modern solutions",
@@ -49,6 +50,7 @@
 	const bannedRegexes = [
 		/\d.? (likes|views)/i, // 3k likes / views
 		/\n\n\n/, // More than 2 newlines
+		/^(@(\w\s?)+\s)?\d+\s(minute|hour|day|week|year)s?\sago$/i, // 1 week ago
 		/^(\w ?)+:(\n| )/im, // someone:
 		/^\d+% (\w ?)+\n/im, // 3% useful
 		/simp\b/i, // Simp
@@ -74,7 +76,7 @@
 					if (found) {
 						if (debug) console.log(`Removing "${found}" : ${textContent}`);
 
-						if (removeThread && comment.parentNode == thread) return thread.remove();
+						if (removeThread && comment.parentNode === thread) return thread.remove();
 						else return comment.remove();
 					}
 				});

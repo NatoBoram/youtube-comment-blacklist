@@ -1,23 +1,29 @@
 {
 	"env": {
 		"browser": true,
-		"es2021": true,
 		"greasemonkey": true
 	},
 	"extends": [
 		"eslint:recommended"
 	],
 	"parserOptions": {
-		"ecmaVersion": 12,
-		"ecmaFeatures": {
-			"impliedStrict": true
-		}
+		"ecmaVersion": "latest"
 	},
 	"rules": {
+		"dot-notation": "error",
+		"eqeqeq": "error",
 		"indent": [
 			"error",
 			"tab"
 		],
+		"max-len": [
+			"error",
+			{
+				"code": 140
+			}
+		],
+		"no-empty-function": "warn",
+		"no-extra-parens": "error",
 		"quotes": [
 			"error",
 			"double"
@@ -26,11 +32,6 @@
 			"error",
 			"always"
 		],
-		"max-len": [
-			"error",
-			{
-				"code": 140
-			}
-		]
+		"strict": "error"
 	}
 }

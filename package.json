@@ -13,9 +13,11 @@
 	},
 	"repository": "github:NatoBoram/youtube-comment-blacklist",
 	"scripts": {
-		"lint": "jshint youtube-comment-blacklist.user.js"
+		"eslint": "eslint youtube-comment-blacklist.user.js"
 	},
 	"devDependencies": {
-		"eslint": "^7.12.1"
+		"@types/greasemonkey": "^4.0.2",
+		"@types/tampermonkey": "^4.0.2",
+		"eslint": "^7.31.0"
 	}
 }

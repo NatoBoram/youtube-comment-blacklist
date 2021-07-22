@@ -16,9 +16,9 @@
 	"editor.rulers": [
 		140
 	],
-	"eslint.packageManager": "npm",
+	"eslint.packageManager": "pnpm",
 	"files.insertFinalNewline": true,
 	"files.trimFinalNewlines": true,
 	"files.trimTrailingWhitespace": true,
-	"npm.packageManager": "npm"
+	"npm.packageManager": "pnpm"
 }
