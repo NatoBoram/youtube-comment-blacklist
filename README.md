@@ -3,6 +3,7 @@
 [![GreasyFork](https://img.shields.io/badge/dynamic/json?color=%23990000&label=GreasyFork&query=total_installs&suffix=%20installs&url=https%3A%2F%2Fgreasyfork.org%2Fscripts%2F411035.json)](https://greasyfork.org/scripts/411035)
 [![OpenUserJS](https://img.shields.io/badge/dynamic/json?color=%232c3e50&label=OpenUserJS&query=%24.OpenUserJS.installs%5B0%5D.value&suffix=%20installs&url=https%3A%2F%2Fopenuserjs.org%2Fmeta%2FNatoBoram%2FYouTube_Comment_Blacklist.meta.json)](https://openuserjs.org/scripts/NatoBoram/YouTube_Comment_Blacklist)
 [![Patreon](https://img.shields.io/badge/dynamic/json?color=%23e85b46&label=Patreon&query=data.attributes.patron_count&suffix=%20patrons&url=https%3A%2F%2Fwww.patreon.com%2Fapi%2Fcampaigns%2F122229)](https://www.patreon.com/NatoBoram)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a0660d3605f6efd00749/maintainability)](https://codeclimate.com/github/NatoBoram/youtube-comment-blacklist/maintainability)
 [![License](https://img.shields.io/github/license/NatoBoram/youtube-comment-blacklist)](https://github.com/NatoBoram/youtube-comment-blacklist/blob/master/LICENSE.md)
 [![Stars](https://img.shields.io/github/stars/NatoBoram/youtube-comment-blacklist?style=social)](https://github.com/NatoBoram/youtube-comment-blacklist/stargazers)
 
