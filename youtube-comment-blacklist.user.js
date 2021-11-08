@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            YouTube Comment Blacklist
 // @namespace       https://github.com/NatoBoram/youtube-comment-blacklist
-// @version         0.0.6
+// @version         0.0.7
 // @license         GPL-3.0-or-later
 // @description     Removes unoriginal YouTube comments.
 // @author          NatoBoram
@@ -32,6 +32,7 @@
 		"he turned himself into a",
 		"i felt that",
 		"let's be honest",
+		"let that sink in",
 		"liker",
 		"modern problems",
 		"no likes",
