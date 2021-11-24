@@ -1,0 +1,45 @@
+[Adblock Plus 2.0]
+! Title: YouTube Comment Blacklist
+! Description: Removes unoriginal YouTube comments.
+! Homepage: https://github.com/NatoBoram/youtube-comment-blacklist
+! License: https://github.com/NatoBoram/youtube-comment-blacklist/blob/master/LICENSE.md
+! Support: https://github.com/NatoBoram/youtube-comment-blacklist/issues
+! Version: 0.0.8
+
+www.youtube.com##ytd-comment-renderer:has-text(/always has been/i)
+www.youtube.com##ytd-comment-renderer:has-text(/has been/i)
+www.youtube.com##ytd-comment-renderer:has-text(/anyone ?/i)
+www.youtube.com##ytd-comment-renderer:has-text(/anyone?/i)
+www.youtube.com##ytd-comment-renderer:has-text(/can't hurt you/i)
+www.youtube.com##ytd-comment-renderer:has-text(/for the likes/i)
+www.youtube.com##ytd-comment-renderer:has-text(/funniest shit i've ever seen/i)
+www.youtube.com##ytd-comment-renderer:has-text(/he turned himself into a/i)
+www.youtube.com##ytd-comment-renderer:has-text(/i felt that/i)
+www.youtube.com##ytd-comment-renderer:has-text(/let's be honest/i)
+www.youtube.com##ytd-comment-renderer:has-text(/let that sink in/i)
+www.youtube.com##ytd-comment-renderer:has-text(/liker/i)
+www.youtube.com##ytd-comment-renderer:has-text(/modern problems/i)
+www.youtube.com##ytd-comment-renderer:has-text(/no likes/i)
+www.youtube.com##ytd-comment-renderer:has-text(/nobody's going to mention/i)
+www.youtube.com##ytd-comment-renderer:has-text(/of likes/i)
+www.youtube.com##ytd-comment-renderer:has-text(/require modern solutions/i)
+www.youtube.com##ytd-comment-renderer:has-text(/speaking the language of gods/i)
+www.youtube.com##ytd-comment-renderer:has-text(/this blew up/i)
+www.youtube.com##ytd-comment-renderer:has-text(/this comment blew up/i)
+www.youtube.com##ytd-comment-renderer:has-text(/tik tok/i)
+www.youtube.com##ytd-comment-renderer:has-text(/tiktok/i)
+www.youtube.com##ytd-comment-renderer:has-text(/underrated comment/i)
+www.youtube.com##ytd-comment-renderer:has-text(/watching this in/i)
+
+! 3k likes / views
+www.youtube.com##ytd-comment-renderer:has-text(/\d.? (likes|views)/i)
+! More than 2 newlines
+www.youtube.com##ytd-comment-renderer:has-text(/\n\n\n/)
+! 1 week ago
+www.youtube.com##ytd-comment-renderer:has-text(/^(@(\w\s?)+\s)?\d+\s(minute|hour|day|week|year)s?\sago$/i)
+! someone:
+www.youtube.com##ytd-comment-renderer:has-text(/^(\w ?)+:(\n| )/im)
+! 3% useful
+www.youtube.com##ytd-comment-renderer:has-text(/^\d+% (\w ?)+\n/im)
+! Simp
+www.youtube.com##ytd-comment-renderer:has-text(/simp\b/i)
